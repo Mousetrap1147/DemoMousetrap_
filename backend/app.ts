@@ -3,11 +3,11 @@ import dotenv from 'dotenv';
 import morgan from 'morgan';
 
 dotenv.config();
+const port = process.env.PORT;
 
 const app = express();
 app.use(morgan('combined'));
-
-const port = process.env.PORT;
+app.use(express.json());
 
 app.get('/', (req: Request, res: Response) => {
   res.send("app.get('/')");
