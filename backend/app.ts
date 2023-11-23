@@ -1,14 +1,16 @@
 import express, { Express, Request, Response } from 'express';
 import dotenv from 'dotenv';
-import path from 'path';
+import morgan from 'morgan';
 
 dotenv.config();
 
 const app = express();
+app.use(morgan('combined'));
+
 const port = process.env.PORT;
 
 app.get('/', (req: Request, res: Response) => {
-  res.send('Express + TypeScript Server');
+  res.send("app.get('/')");
 });
 
 app.listen(port, () => {
