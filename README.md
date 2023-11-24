@@ -1,6 +1,5 @@
 # DemoMousetrap_
-
-Projet de démonstration réalisé par Mousetrap_
+Projet _portfolio_ réalisé par Mousetrap_
 
 ## Base de données
 
