@@ -14,12 +14,12 @@ Projet de démonstration réalisé par Mousetrap_
 | --- | --- | --- |
 | Langage de programmation | [TypeScript](https://www.typescriptlang.org/) | Implémenté |
 | Framework de serveur | [Express](https://expressjs.com/) | Implémenté |
-| ORM | [Prisma](https://www.prisma.io/) | En considération |
+| ORM | [Prisma](https://www.prisma.io/) | Implémenté |
 
 ## Frontend
 
 | Type | Technologie | Statut |
 | --- | --- | --- |
-| Framework | [Vue.js](https://vuejs.org/) | En considération |
+| Framework | [Vue.js](https://vuejs.org/) | Implémenté |
 | Framework | [React](https://reactjs.org/) | En considération |
 | Framework | [Angular](https://angular.io/) | En considération |
